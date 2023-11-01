@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Student Data</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<form action="" autocomplete="off">
+			<h1 align="center">STUDENT DETAILS</h1>
+			<div>
+				<label>Name</label>
+				<input type="text" id="userName">
+			</div>
+			<div>
+				<label>Email Id</label>
+				<input type="text" id="email">
+			</div>
+			<div>
+				<label>Date of Birth</label>
+				<input type="date" id="dob">
+			</div>
+			<div>
+				<label>Education</label>
+				<input type="text" id="education">
+			</div>
+			<div>
+				<label>Phone</label>
+				<input type="text" id="phone">
+			</div>
+			<div>
+				<label>City</label>
+				<input type="text" id="city">
+			</div>
+			<div class="btn">
+				<input type="button" value="SUBMIT" onclick="enterData()">
+				<input type="reset" value="RESET">
+			</div>
+			<div class="view">
+				<button><a href="#student">View Student List</a></button>
+			</div>
+		</form>
+	</div>
+	<div class="student-data" align="center" id="student">
+		<h1 align="center">STUDENT DATA</h1>
+		<table id="studentList" width="80%" border="2px" cellspacing="0px">
+			<thead>
+				<tr>
+				<th>Name</th>
+				<th>Email Id</th>
+				<th>DOB</th>
+				<th>Education</th>
+				<th>Phone</th>
+				<th>City</th>
+				<th>Actions</th>
+			    </tr>
+			</thead>
+			<tbody>
+			</tbody>
+		</table>
+	</div>
+<script src="script.js"></script>
+</body>
+</html>
