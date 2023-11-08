@@ -71,14 +71,42 @@ h1{
 .student-data{
 	margin-top: 50px;
 	height:500px;
-	border-radius: 10px;
 	width: 80%;
 	background-color:#f2f2f2 ;
+	border-radius: 10px;
 	margin-left: 10%;
 	margin-bottom:50px;
 	padding-top: 20px;
 }
+table{
+	border-radius: 5px;
+	overflow: hidden;
+}
 th{
-	background-color: lightpink;
+	background-color: #cc99ff;
 	height: 30px;
+	padding: 5px;
+}
+tr{
+	padding: 20px;
+	height: 30px;
+	padding: 5px;
+	align-content: center;
+}
+tr button{
+	height: 30px;
+	width: 90px;
+	background-color:grey;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	margin: 5px;
+	font-size: 15px;
+    font-weight: bolder;
+}
+tr button:hover{
+	
+	background-color:  lightgrey;
+	color: white;
+	transition: 0.1s;
 }

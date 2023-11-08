@@ -12,15 +12,15 @@
 			<h1 align="center">STUDENT DETAILS</h1>
 			<div>
 				<label>Name</label>
-				<input type="text" id="userName">
+				<input type="text" id="userName" required/>
 			</div>
 			<div>
 				<label>Email Id</label>
-				<input type="text" id="email">
+				<input type="text" id="email" required/>
 			</div>
 			<div>
 				<label>Date of Birth</label>
-				<input type="date" id="dob">
+				<input type="date" id="dob" required/>
 			</div>
 			<div>
 				<label>Education</label>
@@ -38,9 +38,9 @@
 				<input type="button" value="SUBMIT" onclick="enterData()">
 				<input type="reset" value="RESET">
 			</div>
-			<div class="view">
+			<!-- <div class="view">
 				<button><a href="#student">View Student List</a></button>
-			</div>
+			</div> -->
 		</form>
 	</div>
 	<div class="student-data" align="center" id="student">
@@ -57,7 +57,7 @@
 				<th>Actions</th>
 			    </tr>
 			</thead>
-			<tbody>
+			<tbody id="stud">
 			</tbody>
 		</table>
 	</div>
